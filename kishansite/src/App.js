@@ -7,10 +7,15 @@ function App() {
     return (
         <div className="App">
             <div className="row">
-                <TopBar />
+                <TopBar/>
             </div>
             <div className="row">
-                <TitleArea />
+                <TitleArea/>
+            </div>
+            <div className="row">
+                <img className="mePicture"
+                     src="/Kishan.jpg"
+                     alt="Kishan Thakurani"/>
             </div>
             {/* Add other components here */}
         </div>
