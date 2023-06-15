@@ -1,0 +1,46 @@
+.aboutMe-text {
+    color: white;
+}
+
+.aboutMe-title-box {
+    width: 100%;
+}
+
+
+
+.aboutMe-box {
+    border-bottom: #CDCDCD 1px solid;
+    display: flex;
+}
+
+.aboutMe-left {
+    color: white;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutMe-text {
+    color: white;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    width: 40%; /* Adjusted width to accommodate the text box */
+    align-self: flex-start; /* Changed to align the text box to the top */
+}
+
+
+.aboutMe-title {
+    color: white;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 4px solid white; /* Combine border-bottom-color and border-bottom-style */
+}

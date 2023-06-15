@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import TopBar from './components/topbar.js';
 import TitleArea from './components/titlearea.js';
+import AboutMe from './components/aboutme.js';
 
 function App() {
     return (
@@ -17,7 +18,9 @@ function App() {
                      src="/Kishan.jpg"
                      alt="Kishan Thakurani"/>
             </div>
-            {/* Add other components here */}
+            <div className="row">
+                <AboutMe/>
+            </div>
         </div>
     );
 }
