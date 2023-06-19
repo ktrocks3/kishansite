@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-import {icon} from '@fortawesome/fontawesome-svg-core/import.macro';
+import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBook} from '@fortawesome/free-solid-svg-icons'
 import {faEarthAmericas} from "@fortawesome/free-solid-svg-icons/faEarthAmericas";
