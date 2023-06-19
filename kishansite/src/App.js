@@ -21,6 +21,8 @@ function App() {
             <div className="row">
                 <AboutMe/>
             </div>
+            <div className="row">
+            </div>
         </div>
     );
 }

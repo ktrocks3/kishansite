@@ -25,18 +25,16 @@
     margin: 0;
 }
 .titleArea-box {
-    display: flex;
-    align-items: center; /* Center the content vertically */
-    flex-wrap: wrap;
-    justify-content: space-between; /* Distribute the content evenly */
+    display: grid;
+    grid-template-columns: 1fr 308px;
+    grid-gap: 20px;
     width: 100%;
 }
 
 .titleArea-left {
-    flex: 1;
     white-space: nowrap;
-    overflow: hidden; /* Hide any overflowed text */
-    text-overflow: ellipsis; /* Add an ellipsis (...) for truncated text */
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .titleArea-right {
@@ -53,7 +51,15 @@
     width: 100%;
     align-self: flex-end;
     color: white;
-    background-color: #482FC0;
+    background: hsla(197, 100%, 63%, 1);
+
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+
     border: 0;
     line-height: 28px;
     padding: 8px 16px 8px 16px;
@@ -62,4 +68,25 @@
     overflow: hidden; /* Hide any overflowed content */
     font-size: 16px;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    cursor: pointer;
+    transition-duration: .4s;
+    transition-property: background, color, border;
+}
+
+.titleArea-button:hover {
+    background: black;
+    color: #7eaaff;
+    border: 1px solid #ff48fb;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+    .titleArea-box {
+        grid-template-columns: 1fr;
+    }
+
+    .titleArea-right {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
