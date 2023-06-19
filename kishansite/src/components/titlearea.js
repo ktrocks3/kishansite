@@ -1,4 +1,5 @@
-import titlearea from "./titlearea.css";
+import "./titlearea.css";
+import React, { Component }  from 'react';
 
 function TitleArea() {
     const downloadTxtFile = () => {

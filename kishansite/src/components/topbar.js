@@ -1,4 +1,5 @@
-import topbarcss from './topbar.css';
+import React, { Component }  from 'react';
+import './topbar.css';
 
 function TopBar() {
     return (
