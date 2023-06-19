@@ -57,6 +57,7 @@
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
+    overflow: hidden;
 }
 
 
@@ -117,10 +118,11 @@
 }
 
 .aboutMeCard:hover .text {
-    transition: all 0.3s ease;
+    animation: fadeIn 4s forwards;
     opacity: 1;
     max-height: 40px;
 }
+
 
 .aboutMeCard:hover .aboutMeIcon {
     background-position: -120px;
@@ -138,10 +140,16 @@
     }
 
     .aboutMeCard:hover {
-        height: 500px;
+        height: 1000px;
         width: 90%;
-        justify-content: flex-start;
-        padding-top: 2%;
     }
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
