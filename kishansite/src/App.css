@@ -39,3 +39,13 @@
     border-radius: 24px 24px 24px 24px;
     object-fit: cover;
 }
+
+.section-title {
+    color: white;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 4px solid white; /* Combine border-bottom-color and border-bottom-style */
+}
