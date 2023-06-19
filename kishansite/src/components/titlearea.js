@@ -16,7 +16,7 @@ function TitleArea() {
                 <p className={"titleArea-text"}> I am a student developer who is passionate about learning new things
                     and building projects. </p>
                 <a href="/Kishan%20Thakurani.pdf" download>
-                    <button className={"titleArea-button"} onClick={downloadTxtFile}>Resume</button>
+                    <button className={"titleArea-button"} onClick={downloadTxtFile}>Download Resume (PDF)</button>
                 </a>
             </div>
         </div>);
