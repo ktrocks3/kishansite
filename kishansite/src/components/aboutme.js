@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBook, faBriefcase} from '@fortawesome/free-solid-svg-icons'
@@ -40,11 +41,11 @@ function AboutMe() {
 
                     <p className={"text"}>Beyond the realm of programming, I actively channel my energy into
                         making a tangible difference through initiatives that have a global reach and benefit local
-                        communities. In partnership with the Global Issues Network (GIN), I unite with fellow students
+                        communities. As an active member of the Global Issues Network (GIN), I united with fellow students
                         as a force for positive change, advocating for sustainable environmental impact and empowering
                         communities to combat climate change. Furthermore, my commitment to making a difference extends
                         to supporting various fundraising events for charities, utilizing my skills and resources to
-                        contribute meaningfully. By obtaining a scuba diving certification, I actively participate in
+                        contribute meaningfully. By obtaining a scuba diving certification, I actively participated in
                         coral reef cleaning efforts, demonstrating my dedication to preserving our precious natural
                         ecosystems. Being recognized with a Presidential Recognition Award for community service fuels
                         my motivation to harness technology as a catalyst for lasting and transformative change.</p>

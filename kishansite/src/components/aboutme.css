@@ -84,11 +84,9 @@
 
 .aboutMeCard .text {
     width: 80%;
-    font-size: 1em;
     text-align: center;
     margin: 20px auto 0;
     color: white;
-    font-weight: 200;
     letter-spacing: 2px;
     opacity: 0;
     max-height: 0;
@@ -108,9 +106,10 @@
 }
 
 .aboutMeCard:hover .text {
-    animation: fadeIn 4s forwards;
+    animation: fadeIn 1.8s forwards;
     opacity: 1;
     max-height: 40px;
+    font-size: 1em;
 }
 
 
