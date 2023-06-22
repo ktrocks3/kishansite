@@ -3,7 +3,6 @@ import './App.css';
 import TopBar from './components/topbar.js';
 import TitleArea from './components/titlearea.js';
 import AboutMe from './components/aboutme.js';
-import CheckIcon from '@mui/icons-material/Check';
 
 
 function App() {
