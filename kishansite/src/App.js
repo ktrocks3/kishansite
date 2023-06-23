@@ -3,6 +3,8 @@ import './App.css';
 import TopBar from './components/topbar.js';
 import TitleArea from './components/titlearea.js';
 import AboutMe from './components/aboutme.js';
+import Skills from "./components/skills";
+import PictureText from "./components/picturetext";
 
 
 function App() {
@@ -15,15 +17,13 @@ function App() {
                 <TitleArea/>
             </div>
             <div className="row">
-                <img className="mePicture"
-                     src="/Kishan.jpg"
-                     alt="Kishan Thakurani"/>
+                <PictureText/>
             </div>
             <div className="row">
                 <AboutMe/>
             </div>
             <div className="row">
-                <p></p>
+                <Skills/>
             </div>
         </div>
     );

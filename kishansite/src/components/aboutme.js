@@ -9,11 +9,7 @@ function AboutMe() {
 
     return (
         <div style={{width: "100%"}}>
-            <p className="section-title">about me</p>
-            <p className="aboutMe-text">Journey with me into the vast expanse of technology. I'm Kishan Naresh
-                Thakurani, a programmer driven by the diverse cultural tapestry that has shaped my path. With
-                roots in both Curacao and India, my diverse cultural background has shaped my perspective and
-                fueled my drive to make a difference.</p>
+            <p className="section-title">About Me</p>
 
             <div className={"aboutMe-cards"}>
                 <div className={"aboutMeCard"}>
