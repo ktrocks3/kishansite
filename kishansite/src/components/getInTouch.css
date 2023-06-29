@@ -18,3 +18,38 @@
     max-width: 50%;
     padding-right: 2.5%;
 }
+
+.bigScreen {
+    display: inline-block;
+}
+
+.smallScreen {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .contactContainer {
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactLeft {
+        max-width: 100%;
+        margin: 20px 20px 0 20px;
+    }
+
+    .contactRight {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .bigScreen {
+        display: none;
+    }
+
+    .smallScreen {
+        display: inline-block;
+    }
+}

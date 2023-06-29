@@ -7,7 +7,8 @@ function Contact() {
         <p className="section-title">Get In Touch</p>
         <div className={"contactContainer"}>
             <div className={"contactLeft"}>
-                <p>I am thrilled to anticipate your communication! I eagerly await your contact through any of the methods conveniently provided on the right-hand side.</p>
+                <p className={"bigScreen"}>I am thrilled to connect with you! I eagerly await your contact through any of the methods conveniently provided on the right-hand side.</p>
+                <p className={"smallScreen"}>I am thrilled to connect with you! I eagerly await your contact through any of the methods conveniently provided below</p>
                 <p> Feel free to email me at: <a href="mailto:kishan@kishant.nl" style={{color:"white"}}>kishan@kishant.nl</a> or <a href="mailto:kishanthakurani2003@gmail.com" style={{color:"white"}}>kishanthakurani2003@gmail.com</a> </p>
                 <p> You can also call me at: <a href="tel:+31616230976" style={{color:"white"}}>+31 6 16230976</a> </p>
             </div>
