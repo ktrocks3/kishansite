@@ -1535,6 +1535,13 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "6.4.0"
 
+"@fortawesome/free-regular-svg-icons@^6.4.0":
+  version "6.4.0"
+  resolved "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-6.4.0.tgz"
+  integrity sha512-ZfycI7D0KWPZtf7wtMFnQxs8qjBXArRzczABuMQqecA/nXohquJ5J/RCR77PmY5qGWkxAZDxpnUFVXKwtY/jPw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.4.0"
+
 "@fortawesome/free-solid-svg-icons@^6.4.0":
   version "6.4.0"
   resolved "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.4.0.tgz"
@@ -2284,6 +2291,11 @@
   dependencies:
     invariant "^2.2.4"
     nullthrows "^1.1.1"
+
+"@remix-run/router@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.7.0.tgz"
+  integrity sha512-Eu1V3kz3mV0wUpVTiFHuaT8UD1gj/0VnoFHQYX35xlslQUpe8CuYoKFn9d4WZFHm3yDywz6ALZuGdnUPKrNeAw==
 
 "@rneui/base@^4.0.0-rc.7":
   version "4.0.0-rc.7"
@@ -9446,7 +9458,7 @@ react-devtools-core@^4.27.2:
     shell-quote "^1.6.1"
     ws "^7"
 
-"react-dom@^17.0.0 || ^18.0.0", react-dom@^18.0.0, react-dom@^18.2.0, "react-dom@>= 16.8.0", react-dom@>=16.6.0, react-dom@>=18.0.0:
+"react-dom@^17.0.0 || ^18.0.0", react-dom@^18.0.0, react-dom@^18.2.0, "react-dom@>= 16.8.0", react-dom@>=16.6.0, react-dom@>=16.8, react-dom@>=18.0.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
@@ -9587,6 +9599,21 @@ react-refresh@^0.4.0:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.4.3.tgz"
   integrity sha512-Hwln1VNuGl/6bVwnd0Xdn1e84gT/8T9aYNL+HAKDArLCS7LWjwr7StE30IEYbIkx0Vi3vs+coQxe+SQDbGbbpA==
 
+react-router-dom@^6.14.0:
+  version "6.14.0"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.14.0.tgz"
+  integrity sha512-YEwlApKwzMMMbGbhh+Q7MsloTldcwMgHxUY/1g0uA62+B1hZo2jsybCWIDCL8zvIDB1FA0pBKY9chHbZHt+2dQ==
+  dependencies:
+    "@remix-run/router" "1.7.0"
+    react-router "6.14.0"
+
+react-router@6.14.0:
+  version "6.14.0"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.14.0.tgz"
+  integrity sha512-OD+vkrcGbvlwkspUFDgMzsu1RXwdjNh83YgG/28lBnDzgslhCgxIqoExLlxsfTpIygp7fc+Hd3esloNwzkm2xA==
+  dependencies:
+    "@remix-run/router" "1.7.0"
+
 react-scripts@^5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/react-scripts/-/react-scripts-5.0.1.tgz"
@@ -9669,7 +9696,7 @@ react-transition-group@^4.4.5:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", react@^18.0.0, react@^18.2.0, "react@>= 16", "react@>= 16.8.0", react@>=16.3, react@>=16.6.0, react@>=16.8.0, react@>=18.0.0, react@18.2.0:
+react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", react@^18.0.0, react@^18.2.0, "react@>= 16", "react@>= 16.8.0", react@>=16.3, react@>=16.6.0, react@>=16.8, react@>=16.8.0, react@>=18.0.0, react@18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
