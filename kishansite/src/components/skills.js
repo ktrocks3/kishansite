@@ -30,7 +30,7 @@ function Skills() {
                 )}
             >
                 <div className={"image-textwrap"}>
-                    <img className={"image"} src="/icons/Python.png" alt={"python"}/>
+                    <img className={"image"} src="/icons/python.png" alt={"python"}/>
                     <p className={"caption"}> Python </p>
                 </div>
 
