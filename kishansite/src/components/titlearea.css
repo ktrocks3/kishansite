@@ -23,7 +23,21 @@
     width: 100%;
     align-self: flex-start;
     margin: 0;
+    text-align: center;
 }
+
+.white-content .titleArea-text  {
+    color: black;
+}
+
+.white-content .titleArea-header {
+    color: black;
+}
+
+.white-content .titleArea-subheader  {
+    color: black;
+}
+
 .titleArea-box {
     display: grid;
     grid-template-columns: 1fr 308px;

@@ -6,9 +6,14 @@ import AboutMe from './components/aboutme.js';
 import Skills from "./components/skills";
 import PictureText from "./components/picturetext";
 import Contact from "./components/getInTouch";
+import { Button, Container, InputGroup } from 'reactstrap';
+import { ThemeContext, themes } from './components/ThemeContext';
+import ToggleDark from "./components/ToggleDark";
+
 
 
 function App() {
+
     return (
         <div className="App">
             <div className="row">

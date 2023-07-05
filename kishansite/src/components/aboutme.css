@@ -37,6 +37,12 @@
     overflow: hidden;
 }
 
+.white-content .aboutMeCard {
+    background-color: white;
+}
+
+
+
 
 .aboutMeIcon {
     margin: 0 auto;
@@ -68,6 +74,9 @@
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+.white-content .aboutMeCard .title {
+    color: black;
+}
 
 .aboutMeCard .text {
     width: 80%;
@@ -79,6 +88,9 @@
     max-height: 0;
     transition: all 0.3s ease;
     pointer-events: none;
+}
+.white-content .aboutMeCard .text {
+    color: black;
 }
 
 .aboutMeCard:hover {
@@ -101,14 +113,20 @@
 
 
 .aboutMeCard:hover .aboutMeIcon {
-    background-position: -120px;
     transition: all 0.3s ease;
+    background: black -120px;
+}
+
+.white-content .aboutMeCard:hover .aboutMeIcon {
+    background: #FAF9F6 -120px;
+
 }
 
 .aboutMeCard:hover .aboutMeIcon svg path {
     fill: #7eaaff;
     transition: all 0.3s ease;
 }
+
 
 @media (max-width: 767px) {
     .aboutMe-cards {

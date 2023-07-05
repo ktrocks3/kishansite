@@ -1,6 +1,9 @@
 import React from 'react';
 import './skills.css';
 import Carousel from "nuka-carousel";
+import {faArrowLeft, faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import {ThemeContext, themes} from './ThemeContext';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function Skills() {
     return (
@@ -15,16 +18,41 @@ function Skills() {
                 autoplay={true}
                 autoplayInterval={3000}
                 speed={500}
+                renderCenterLeftControls={({ previousSlide }) => (
+                    <button onClick={previousSlide} className={"buttonArrow"}>
+                        <FontAwesomeIcon icon={faArrowLeft} className={"arrow"}/>
+                    </button>
+                )}
+                renderCenterRightControls={({ nextSlide }) => (
+                    <button onClick={nextSlide} className={"buttonArrow"}>
+                        <FontAwesomeIcon icon={faArrowRight} className={"arrow"}/>
+                    </button>
+                )}
             >
                 <div className={"image-textwrap"}>
-                    <img className={"image"} src="/icons/python.jpg" alt={"python"}/>
+                    <img className={"image"} src="/icons/Python.png" alt={"python"}/>
                     <p className={"caption"}> Python </p>
                 </div>
 
-                <div className={"image-textwrap"}>
-                    <img className={"image"} src="/icons/java.png" alt={"java"}/>
-                    <p className={"caption"}> Java </p>
-                </div>
+                <ThemeContext.Consumer>
+                    {({ theme }) => (
+                        <div className={"image-textwrap"}>
+                            {theme === themes.light && (
+                                <>
+                                    <img className={"image"} src="/icons/java-light.png" alt={"java"} />
+                                    <p className={"caption"}> Java </p>
+                                </>
+                            )}
+                            {theme === themes.dark && (
+                                <>
+                                    <img className={"image"} src="/icons/java.png" alt={"java"} />
+                                    <p className={"caption"}> Java </p>
+                                </>
+                            )}
+                        </div>
+                    )}
+                </ThemeContext.Consumer>
+
 
                 <div className={"image-textwrap"}>
                     <img className={"image"} src="/icons/htmlcss.png" alt={"html/css/js"}/>
@@ -32,10 +60,25 @@ function Skills() {
                 </div>
 
 
-                <div className={"image-textwrap"}>
-                    <img className={"image"} src="/icons/typeScript.png" alt={"ts"}/>
-                    <p className={"caption"}> TypeScript </p>
-                </div>
+                <ThemeContext.Consumer>
+                    {({ theme }) => (
+                        <div className={"image-textwrap"}>
+                            {theme === themes.light && (
+                                <>
+                                    <img className={"image"} src="/icons/typeScript-light.png" alt={"java"} />
+                                    <p className={"caption"}> TypeScript </p>
+                                </>
+                            )}
+                            {theme === themes.dark && (
+                                <>
+                                    <img className={"image"} src="/icons/typeScript.png" alt={"java"} />
+                                    <p className={"caption"}> TypeScript </p>
+                                </>
+                            )}
+                        </div>
+                    )}
+                </ThemeContext.Consumer>
+
 
 
                 <div className={"image-textwrap"}>

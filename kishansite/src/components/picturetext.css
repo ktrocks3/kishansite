@@ -20,6 +20,16 @@
     width: 60%;
 }
 
+.white-content .mePicture-text {
+    color: black;
+
+}
+
+.white-content .mePicture {
+    width: 60%;
+    left: 40%
+}
+
 .pictureWrapper {
     position: relative;
 }
@@ -34,5 +44,10 @@
     .mePicture {
         left:0;
         width: 100%;
+    }
+
+    .white-content .mePicture {
+        width: 100%;
+        left: 0;
     }
 }

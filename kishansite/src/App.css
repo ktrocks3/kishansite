@@ -13,9 +13,8 @@
 .row {
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .top {
@@ -43,4 +42,11 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     margin-bottom: 20px;
     border-bottom: 1px solid #CDCDCD; /* Combine border-bottom-color and border-bottom-style */
+}
+.white-content .section-title {
+    color: black;
+}
+
+.white-content {
+    background: white;
 }

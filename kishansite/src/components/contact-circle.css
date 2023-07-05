@@ -27,11 +27,15 @@
     transition: .2s ease-in-out;
 }
 
+.white-content .card1 {
+    background-color: white;
+    color: black;
+}
+
 .phone {
     margin-top: .5em;
     margin-left: .35em;
     color: #27b41d;
-
 }
 
 .card2 {
@@ -43,6 +47,11 @@
     border-radius: 5px 90px 5px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
     transition: .2s ease-in-out;
+}
+
+.white-content .card2 {
+    background-color: white;
+    color: black;
 }
 
 .email {
@@ -62,6 +71,11 @@
     transition: .2s ease-in-out;
 }
 
+.white-content .card3 {
+    background-color: white;
+    color: black;
+}
+
 .linkedin {
     color: #0E76A8;
     margin-top: -.9em;
@@ -77,6 +91,11 @@
     border-radius: 5px 5px 90px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
     transition: .2s ease-in-out;
+}
+
+.white-content .card4 {
+    background-color: white;
+    color: black;
 }
 
 .discord {
@@ -95,6 +114,10 @@
     color: #1A1A1A;
 }
 
+.white-content .card1:hover .phone {
+    color: white;
+}
+
 .card2:hover {
     cursor: pointer;
     scale: 1.1;
@@ -103,6 +126,10 @@
 
 .card2:hover .email {
     color: #1A1A1A;
+}
+
+.white-content .card2:hover .email {
+    color: white;
 }
 
 .card3:hover {
@@ -115,6 +142,10 @@
     color: #1A1A1A;
 }
 
+.white-content .card3:hover .linkedin {
+    color: white;
+}
+
 .card4:hover {
     cursor: pointer;
     scale: 1.1;
@@ -123,4 +154,8 @@
 
 .card4:hover .discord {
     color: #1A1A1A;
+}
+
+.white-content .card4:hover .discord {
+    color: white;
 }

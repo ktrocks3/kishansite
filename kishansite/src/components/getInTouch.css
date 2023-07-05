@@ -4,6 +4,17 @@
     justify-content: space-between;
 }
 
+.white-content .contactContainer {
+    color: black;
+}
+
+.link {
+    color: white;
+}
+
+.white-content .link {
+    color: black;
+}
 .contactLeft {
     /*flex: .5;*/
     padding: 2%;
@@ -12,6 +23,11 @@
     background-color: #1a1a1a;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     max-width: 50%;
+}
+
+.white-content .contactLeft {
+    background-color: white;
+    color: black;
 }
 
 .contactRight {
