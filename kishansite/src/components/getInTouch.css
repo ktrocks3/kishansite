@@ -31,6 +31,8 @@
 }
 
 .contactRight {
+    display: flex;
+    align-items: center;
     max-width: 50%;
     padding-right: 2.5%;
 }
