@@ -59,12 +59,24 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    justify-content: space-between;
 }
 
-.titleArea-button {
+
+.pushable {
     width: 100%;
     align-self: flex-end;
     color: white;
+    background: hsla(197, 100%, 45%, 1);
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    cursor: pointer;
+}
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
     background: hsla(197, 100%, 63%, 1);
 
     background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
@@ -73,25 +85,41 @@
 
     background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
 
-
-    border: 0;
-    line-height: 28px;
-    padding: 8px 16px 8px 16px;
-    margin-top: auto;
-    border-radius: 6px;
     overflow: hidden; /* Hide any overflowed content */
     font-size: 16px;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    cursor: pointer;
-    transition-duration: .4s;
-    transition-property: background, color, border;
+    color: white;
+    transform: translateY(-4px);
 }
 
-.titleArea-button:hover {
-    background: black;
-    color: #7eaaff;
-    border: 1px solid #ff48fb;
+.pushable:active .front {
+    transform: translateY(-2px);
 }
+
+.pushable:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.front {
+    transition:
+            transform
+            600ms
+            cubic-bezier(.3, .7, .4, 1);
+}
+
+.pushable:hover .front {
+    transform: translateY(-6px);
+    transition:
+            transform
+            250ms
+            cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.pushable:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
 
 /* Media query for screens smaller than 768px */
 @media (max-width: 767px) {
