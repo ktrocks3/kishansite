@@ -111,6 +111,11 @@ function Skills() {
                     <img className={"image"} src="/icons/prolog.png" alt={"prolog"}/>
                     <p className={"caption"}> SWI-Prolog </p>
                 </div>
+
+                <div className={"image-textwrap"}>
+                    <img className={"image"} src="/icons/php.png" alt={"php"}/>
+                    <p className={"caption"}> PHP </p>
+                </div>
             </Carousel>
         </div>
     );
